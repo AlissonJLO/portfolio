@@ -1,7 +1,9 @@
+import { Button } from "@nextui-org/button";
+
 export default function Home() {
   return (
-    <>
-      <p>Ola</p>
-    </>
+  
+      <Button>Button</Button>
+
   );
 }

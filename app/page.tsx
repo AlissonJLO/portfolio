@@ -1,11 +1,11 @@
-import Perfil from "../sections/Perfil";
-import Projetos from "../sections/Projetos";
-import Footer from "../sections/Footer";
+import Perfil from "./sections/Perfil";
+import Projetos from "./sections/Projetos";
+import Footer from "./sections/Footer";
 
 export default function Home(): React.JSX.Element {
   return (
     <>
-      <main className="md:flex-row md:space-x-10 flex flex-col flex-1 min-h-dvh min-w-dvw">
+      <main className="md:flex-row md:space-x-10  m-10 flex flex-col min-h-dvh min-w-dvw">
         <Perfil />
         <Projetos />
       </main>

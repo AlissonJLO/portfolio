@@ -21,19 +21,19 @@ const experiencias: Experiencia[] = [
 ];
 export default function Perfil(): React.JSX.Element {
   return (
-    <div className="flex flex-col space-y-3">
+    <div className="flex flex-col space-y-3  md:w-1/3 ">
       <div className="flex items-center space-x-2">
         <Avatar src="/asas.jfif" className="w-20 h-20" />
         <h1 className="font-bold text-xl">Alisson Joaquim</h1>
       </div>
       <div>
         <h1 className=" text-lg">Especialização</h1>
-        <p className="text-sm">
+        <p className="text-base">
           Javascript/Typescript, React, HTML/CSS, Tailwind.
         </p>
       </div>
       <div className="py-2">
-        <div className="flex space-x-2">
+        <div className="flex space-x-2 justify-center md:justify-normal ">
           <Link
             href="https://github.com/AlissonJLO?tab=repositories"
             isExternal={true}
